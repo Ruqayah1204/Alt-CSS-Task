@@ -1,0 +1,76 @@
+/* RESET CSS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Lato", serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* STYLING */
+body {
+  background-color: #a7a8cd;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 30rem;
+  background-color: #fff;
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 300px;
+}
+
+.image-container img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.card-content {
+  padding: 1rem;
+}
+
+.small-text {
+  font-size: 0.8rem;
+  color: #a7a8cd;
+}
+.card-content p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.absolute {
+  position: absolute;
+  background-color: #fcf8b8;
+  top: 8px;
+  left: -10px;
+  padding: 0.1rem 0.9rem;
+  border-radius: 0.6rem 1.5rem 1.5rem 0.6rem;
+}

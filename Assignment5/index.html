@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 5 - WP Pusher</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav inner-container">
+        <div class="logo-wrapper">
+          <img src="../assets/wppusher-logo copy.png" alt="site-logo" />
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Learn More</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="flex-section">
+        <div class="checkout-section">
+          <h2>Checkout</h2>
+          <div class="basic-info">
+            <h3 class="num-list" data-numValue="1">Your Basic Information</h3>
+            <form action="" class="form-basic-info">
+              <div class="form-field">
+                <label for="first-name" class="form-label">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  placeholder="Jane"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-field">
+                <label for="first-name" class="form-label">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  placeholder="Doe"
+                  class="form-input"
+                />
+              </div>
+              <div class="form-field span-input">
+                <label for="email" class="form-label">E-mail</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="janedoe@example.com"
+                  class="form-input"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="payment-info">
+            <h3 class="num-list" data-numValue="2">Your Payment Information</h3>
+            <form action="" class="form-payment-info">
+              <div class="form-field">
+                <label for="card-info" class="form-label">Credit Card</label>
+                <input
+                  type="text"
+                  name="card-info"
+                  id="card-info"
+                  placeholder="Credit Card"
+                  class="form-input"
+                />
+              </div>
+            </form>
+          </div>
+
+          <div class="checkout-footer">
+            <button>Buy WP Pusher</button>
+            <p>
+              <span>?</span>
+              <strong>Need Help?</strong>
+              Don't hesitate to<a> contact support</a>
+            </p>
+            <figure class="stripe">Powered by <span>Stripe</span></figure>
+          </div>
+        </div>
+        <div class="freelancer-section">
+          <h4>Freelancer</h4>
+          <p class="pricing">
+            <sup>$</sup>
+            <span>99</span>
+            <sub>/year</sub>
+          </p>
+          <p class="renewal-text">Automatically renews after 1 year</p>
+          <ul class="freelance-list">
+            <li>Use on <strong>5</strong> client sites</li>
+            <li>Private repositories</li>
+            <li>Email support</li>
+          </ul>
+          <p class="cta">
+            Need <strong>20</strong> strong clients?<br />
+            <span>Switch to the Agency plan.</span>
+          </p>
+          <div class="quote-and-author">
+            <cite>
+              FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+              that issue, and the customer support is awesome!
+            </cite>
+            <div class="author">
+              <img
+                src="../assets/Bitmap.png"
+                alt="author-image"
+                class="author-img"
+              />
+              <span>Kirk Beard</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer inner-container">
+      &copy; 2018 WP Pusher IVS · <span>Terms of Service</span>
+    </footer>
+  </body>
+</html>
